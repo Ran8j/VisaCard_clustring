@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd 
 import plotly.express as px
-import os
+
 
 
 
 # import data       
-os.chdir(r"/Users/randa./Downloads/deploy")
+
 df = pd.read_csv("bst_model.csv")
 df['Is Enough'] = df['IsEnough'].map({1: 'Yes', 0: 'No'})
 df['would repay'] = df['repay'].map({1: 'Yes', 0: 'No'})
