@@ -32,7 +32,7 @@ catigrical_futures_pie = df[['type Of Commitment', 'Payback Amount']].columns
 # page setting 
 
 st.set_page_config(page_title="MLProject",page_icon=":bar_chart:",layout="wide")
-st.image("/Users/randa./Downloads/deploy/visacard.png")
+st.image("visacard.png")
 st.title(" Student Visa Card :credit_card: :bar_chart: ")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 st.subheader("Overview analysis about the dataset")
